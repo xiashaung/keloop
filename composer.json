@@ -1,0 +1,22 @@
+{
+  "name": "xiashuang/keloop",
+  "description": "keloop 快跑者接口整理",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xiashuang",
+      "email": "996190264@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Xiashaung\\Keloop\\": "src"
+    }
+  },
+  "require": {
+    "ext-com_dotnet": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
